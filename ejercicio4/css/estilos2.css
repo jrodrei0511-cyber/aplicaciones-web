@@ -1,0 +1,57 @@
+/* Página secundaria: menú HORIZONTAL */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F7C6;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: red;
+    text-align: center;
+    background-color: black;
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+nav {
+    overflow: hidden;            /* el alto se adapta al contenido */
+    background-color: #D9D9D9;
+    border: solid 1px #888888;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;            /* menú horizontal */
+    margin: 0 10px 0 10px;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;                 /* menú horizontal */
+    margin-left: 10px;           /* separación entre opciones */
+}
+
+nav ul li a {
+    display: block;
+    padding: 6px 12px;
+}
+
+/* Orden obligatorio: link, visited, hover */
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: red;
+}

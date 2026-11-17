@@ -1,0 +1,7 @@
+¿Qué significan los atributos font-size, color, font-weight y background?
+
+- font-size: el tamaño de la letra. Por ejemplo, font-size: 12px hace que el texto mida 12 píxeles.
+- color: el color del texto. Se puede poner con nombre (darkblue), en hexadecimal (#00008B) o en rgb().
+- font-weight: el grosor de la letra. "normal" es la letra normal y "bold" es negrita.
+- background: el fondo del elemento. Puede ser un color o una imagen, como url("imagenes/fondo.gif"),
+  que se repite como un mosaico hasta llenar toda la página.

@@ -1,0 +1,55 @@
+/* Página principal: menú VERTICAL */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E8E8E8;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #1A2FA0;
+    text-align: center;
+    background-color: white;
+    border-top: thin solid #1A2FA0;
+    border-bottom: thin solid #1A2FA0;
+    width: 70%;
+    margin: 20px auto;
+}
+
+nav {
+    overflow: hidden;            /* el alto se adapta al contenido */
+    width: 200px;
+    background-color: #F5A9A9;
+    border: solid 3px #74030A;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px black;
+    padding: 15px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: circle;                       /* menú vertical */
+    list-style-image: url("../imagenes/carpeta.gif"); /* SUBIR NOTA: imagen en vez de círculo */
+    margin: 0 10px 0 10px;
+}
+
+nav ul li {
+    margin-top: 12px;            /* separación entre opciones */
+}
+
+/* Orden obligatorio: link, visited, hover */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
